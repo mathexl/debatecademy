@@ -1,0 +1,403 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    height: 30px;
+    z-index: 400;
+}
+header {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .5);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(237, 30, 121, 1);
+    height: 50px;
+}
+.rmidp {
+    position: relative;
+    width: 40%;
+    font-family: Lato;
+    text-align: left;
+    top: 100px;
+    float: left;
+    margin-left: 14%;
+}
+#menu li {
+    display: inline-block;
+    margin: 10px;
+    color: #fff;
+    background: #fff;
+    background: rgba(255, 255, 255, 0);
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+#menu li.active {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+#menu li a {
+    text-decoration: none;
+    color: #FFF;
+}
+#menu li.active a:hover {
+    color: #FFF;
+}
+#menu li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+#menu li a,
+#menu li.active a {
+    padding: 9px 18px;
+    display: block;
+}
+.small li a
+{    padding: 4px 12px !important;
+}
+#menu li.active a {
+    color: #fff;
+}
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.citation {
+    float: none;
+    position: relative;
+    padding: 20px;
+    top: 20px;
+    color: white;
+}
+.citation a {
+    text-decoration: none;
+    color: white;
+}
+.card {
+    width: 380px;
+    height: 470px;
+    float: left;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    font-family: Lato, sans-serif;
+    position: relative;
+    left: 10%;
+    top: 50px;
+    overflow-y: scroll;
+    overflow: -moz-scrollbars-vertical;
+}
+.menubutton {
+    position: absolute;
+    right: 12px;
+    top: 4px;
+    padding: 10px;
+    font-family: Lato, sans-serif;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 10px;
+}
+.menubutton:hover {
+    opacity: .4;
+    background-color: rgba(255, 255, 255, .8);
+}
+.wholediv {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+    display: iblock;
+}
+.margin20 {
+    margin-top: 120px;
+    font-family: Lato, sans-serif;
+    text-align: center;
+    margin-bottom: 210px;
+    position: relative;
+}
+.margin40{    margin-top: 20px;
+}
+.block {
+    display: block;
+}
+.clear {
+    clear: both;
+}
+.hover {
+    margin-bottom: 24px;
+    display: block;
+}
+.hover:hover {
+    opacity: .8;
+    background-color: rgba(0, 0, 0, .02);
+    padding: 1%;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.placard {
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .05);
+    color: grey;
+    margin: 10px;
+}
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+.emblem {
+    width: 380px;
+    height: 360px;
+    float: left;
+    font-size: 20px;
+    color: white;
+    font-family: Lato, sans-serif;
+    position: relative;
+    left: 10%;
+    top: 50px;
+    background-image: url(images/emblem.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: bounce 1s;
+    -webkit-animation: bounce 1s;
+}
+.emblem1 {
+    width: 380px;
+    height: 360px;
+    float: left;
+    font-size: 20px;
+    color: white;
+    font-family: Lato, sans-serif;
+    position: relative;
+    left: 10%;
+    top: 50px;
+    background-image: url(images/emblem1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: bounce 1s;
+    -webkit-animation: bounce 1s;
+}
+
+.emblemtitle {
+    width: 280px;
+    margin: auto;
+    margin-top: 140px;
+    font-weight: 300;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.rmidp h1 {
+    color: rgba(237, 30, 121, 1);
+    font-family: Lato;
+    font-size: 30px;
+}
+.titlepage {
+    position: absolute;
+    top: 17px;
+    font-size: 16px;
+    font-family: Lato;
+    color: rgba(237, 30, 121, 1);
+    width: 40%;
+    text-align: center;
+margin-left:30%;
+    box-sizing: border-box;
+    font-weight: 200;
+    animation: bounceIn 1s;
+    -webkit-animation: bounceIn 1s;
+}
+.pink {
+    color: rgba(237, 30, 121, 1);
+}
+.pinkbg {
+    background-color: rgba(237, 30, 121, 1);
+}
+.white {
+    background-color: white;
+    opacity: .95;
+}
+.panel1 {
+    width: 100%;
+    height: 400px;
+    background-image: url(images/bronx.jpg);
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+.panel2 {
+    width: 60%;
+    margin-left: 20%;
+    position: absolute;
+    z-index: 5;
+    top: 165px;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-family: Lato, sans-serif;
+    color: ;
+    box-sizing: border-box;
+    background-color: white;
+    opacity: .9;
+}
+.panel3 {
+    position: relative;
+    margin-top: 400px;
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px;
+    z-index: 3;
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+}
+.panel4 {
+    position: relative;
+    margin-top: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    z-index: 3;
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    color: white;
+    overflow: auto;
+    text-align: center;
+}
+.panel5 {
+    position: relative;
+    margin-top: 0px;
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px;
+    z-index: 3;
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    overflow: auto;
+}
+.smallbox {
+    float: left;
+    width: 16%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-sizing: border-box;
+}
+.icons {
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+.trophy {
+    width: 20%;
+    margin-left: 5%;
+    float: left;
+}
+.trophycaption {
+    margin-left: 10%;
+    width: 60%;
+    float: left;
+    color: grey;
+    font-variant-caps: small-caps;
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 20px;
+}
+.title {
+    text-align: center;
+    color: white;
+    width: 200px;
+    margin: auto;
+    font-size: 15px;
+    margin-top: -14px;
+    margin-bottom: 8px;
+    padding: 5px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.titlemenu {
+    text-align: center;
+    color: grey;
+    width: 200px;
+    margin: auto;
+    font-size: 15px;
+    margin-top: -14px;
+    margin-bottom: 8px;
+    padding: 5px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    font-family: Lato, sans-serif;
+}
+.grey {
+    color: grey;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+.link {
+    padding: 0px;
+    height: auto !important;
+    width: auto !important;
+    border-radius: 50px !important;
+    color: white !important;
+}
+#menu {
+    top: 50px;
+    position: fixed;
+    padding: 10px;
+    height: auto;
+    color: #FFF !important;
+    font-family: Lato;
+}
+@media screen and (max-width: 600px) {
+    .panel5 {
+        display: none;
+    }
+    .smallbox {
+        float: none;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        box-sizing: border-box;
+        border-bottom: 1px solid white;
+    }
+    .panel2 {
+        width: 60%;
+        margin-left: 20%;
+        position: absolute;
+        z-index: 5;
+        top: 175px;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        font-family: Lato, sans-serif;
+        color: ;
+        box-sizing: border-box;
+        background-color: white;
+        opacity: .9;
+    }
+}
